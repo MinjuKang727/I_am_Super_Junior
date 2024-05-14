@@ -8,7 +8,7 @@
 <b>📌 Exams under preparation</b>
   - SQLD(Sat. May. 25th)
   - Practical exam for Engineer Information Processing(July.28th ~ August.14th)
-      - [Exam schedule and extra...](https://www.q-net.or.kr/totalSearch.do?gSite=Q&searchQuery=%C1%A4%BA%B8%C3%B3%B8%AE%B1%E2%BB%E7&totalQuery=%C1%A4%BA%B8%C3%B3%B8%AE%B1%E2%BB%E7&searchMenu=exam&searchSort=weight&pageNum=1&resFlag=off&qryStr=&detailChk=off)
+      - [Exam schedule and etc...](https://www.q-net.or.kr/totalSearch.do?gSite=Q&searchQuery=%C1%A4%BA%B8%C3%B3%B8%AE%B1%E2%BB%E7&totalQuery=%C1%A4%BA%B8%C3%B3%B8%AE%B1%E2%BB%E7&searchMenu=exam&searchSort=weight&pageNum=1&resFlag=off&qryStr=&detailChk=off)
       - [시나공](https://youtube.com/playlist?list=PLpYNFXUfkvDq4aqECawuYAF2QVcm0fY8C&si=YVbutMofxJJxiQzn) : Youtube online lecture
 
 <b>📜 List of studying</b>
