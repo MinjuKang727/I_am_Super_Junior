@@ -25,4 +25,4 @@
 
 ---
 # My TIL(2024.05.15 ~ )
-<a href="TIL/til_20240515.md" target="_blank">2024.05.15.Wed</a>
+<a href="/til_20240515.md" target="_blank">2024.05.15.Wed</a>
