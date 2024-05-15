@@ -7,7 +7,7 @@
 <i>Let's wrap up the day with</i> TIL
 ### 2024.07.15 ~ 2024.11.25 (Planned) Back-end course(5th Java&Spring) of nb camp in Spartan Coding Club open.
 ### 2024.05.20 (Planned) Spartan Coding Club SQLD Certification Lectures Open
-<i> There are less than 2 weeks until SQLD exam. so, Just I want them to open lecture today...
+<i> There are less than 2 weeks until SQLD exam. so, Just I want them to open lecture today...</i>
 ### 2024.05.15 (Backend Development Study Restarted)
 <b>📌 Exams under preparation</b>
   - SQLD(Sat. May. 25th)
