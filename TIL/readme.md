@@ -1,5 +1,5 @@
 # TIL : Today I Learned
-> <a href="https://nbcamp.spartacodingclub.kr/blog/til-제대로-작성하는-방법-til이란-til-작성-이유-3498">What is TIL & How to write TIL?</a>
+> <a href="https://nbcamp.spartacodingclub.kr/blog/til-제대로-작성하는-방법-til이란-til-작성-이유-3498" target="_blank">What is TIL & How to write TIL?</a>
 
 
 ## Why do I have to write TIL?
