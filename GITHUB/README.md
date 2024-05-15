@@ -1,30 +1,5 @@
-# Project
-백엔드 신입 개발자 <b>강민주</b>님의 프로젝트 저장소입니다.
-
-<br><br>
-<h1>Stack</h1>
-<img alt="Python" src ="https://img.shields.io/badge/Python-3776AB.svg?&style=for-the-badge&logo=Python&logoColor=white"/>
-<img alt=" HTML" src ="https://img.shields.io/badge/HTML5-E34F26.svg?&style=for-the-badge&logo=HTML5&logoColor=white"/>
-<img alt=" JavaScript" src ="https://img.shields.io/badge/JavaScript-F7DF1E.svg?&style=for-the-badge&logo=JavaScript&logoColor=white"/>
-<img alt=" CSS3" src ="https://img.shields.io/badge/CSS3-1572B6.svg?&style=for-the-badge&logo=CSS3&logoColor=white"/>
-<img alt="Flask" src ="https://img.shields.io/badge/Flask-000000.svg?&style=for-the-badge&logo=Flask&logoColor=white"/>
-<img alt="Jinja" src ="https://img.shields.io/badge/Jinja-B41717.svg?&style=for-the-badge&logo=Jinja&logoColor=white"/>
-
-<h3>
-<ul>
-    <li>Programming Language : Python 3.9.12</li>
-    <li>Web : HTML, JavaScript, CSS, Flask 1.1.2, Jinja</li>
-    <li>IDE : 
-        <ul>
-            <li>Jupyter Notebook(anaconda3) 6.4.8</li>
-            <li>Visual Studio Code 1.70.1</li>
-        </ul>
-    </li>
-</ul>
-</h3>  
-<br>
-
-
+# GitHub사용법
+> This is a Description of how to use GitHub.
 
 <br><br>
 <h1>[ How to use Gitbash ]</h1><br>
@@ -32,7 +7,7 @@
 git remote add origin https://gwangju-ai-gitlab.elice.io/ai_iot/diamond/smart-farm-kit.git
 
 [로컬 저장소]<br>
-cd C:/Users/AI/GJAIschool/Project/Smart_house_kit
+cd C:/Users/I_am_Super_Junior
 
 <br><br>
 <h1>GitLab CML 작성 가이드</h1>
