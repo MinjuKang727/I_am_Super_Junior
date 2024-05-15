@@ -37,7 +37,7 @@
 <br><br>
 4. 폴더 생성<br>
 - 폴더 생성 : mkdir 생성할 폴더명<br>
-`$ mkdir Diamond`  
+`$ mkdir I_am_Super_Junior`  
 <br><br>
 5. 로컬 저장소 초기화<br>
 - 반드시 내가 로컬 저장소로 만들 폴더 안에 들어간 후에 명령어를 입력해야 함.<br>
