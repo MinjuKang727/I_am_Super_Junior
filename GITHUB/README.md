@@ -41,7 +41,7 @@
 <br><br>
 5. 로컬 저장소 초기화<br>
 - 반드시 내가 로컬 저장소로 만들 폴더 안에 들어간 후에 명령어를 입력해야 함.<br>
-`AI@DESKTOP-B76SA23 MINGW64 ~/Desktop/Diamond (master)`  
+`AI@DESKTOP-B76SA23 MINGW64 ~/Desktop/I_am_Super_Junior (master)`  
 `$ git init`  
 <br><br>
 6. 원격 저장소 연결 : git remote add origin 원격 저장소 주소(gitlab에서 clone >> HTTPS 복.붙)<br>
