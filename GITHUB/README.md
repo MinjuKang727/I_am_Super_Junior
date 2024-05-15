@@ -4,7 +4,7 @@
 <br><br>
 <h1>[ How to use Gitbash ]</h1><br>
 [clone 주소]<br>
-git remote add origin https://gwangju-ai-gitlab.elice.io/ai_iot/diamond/smart-farm-kit.git
+git remote add origin https://github.com/MinjuKang727/I_am_Super_Junior.git
 
 [로컬 저장소]<br>
 cd C:/Users/I_am_Super_Junior
