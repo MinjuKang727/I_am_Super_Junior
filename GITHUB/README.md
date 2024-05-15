@@ -1,4 +1,4 @@
-# GitHub사용법
+# Git Bash Command Lines
 > This is a Description of how to use GitHub.
 
 <br><br>
@@ -101,6 +101,8 @@
 
 `$ git add hello.html`<br>
 <br>
+※ 추가 취소 : `git reset <파일명>`, `git reset`
+  <br>
 - commit 메세지 설정 : git commit -m "메세지"<br>
 
 `$ git commit -m "first commit"`<br>
