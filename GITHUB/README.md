@@ -139,8 +139,6 @@
 `$ git clean -xfd`<br>
 <br><br>
 9. 저장소 파일 or 폴더 삭제<br>
-- 기존 리파지토리 삭제
-  : `$ git remote remove origin`<br>
   
 - 원격 저장소와 로컬 저장소에 있는 파일을 삭제<br>
  : git rm 파일명.확장자(또는 경로 : 폴더명/파일명.확장자)<br>
