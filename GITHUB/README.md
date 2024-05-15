@@ -16,9 +16,9 @@
 <br>
 1. 처음 한번만 입력할 아이디와 메일 주소<br>
 
-`$ git config --global user.name gitLab아이디`  
+`$ git config --global user.name 깃허브_아이디`  
 `AI@DESKTOP-B76SA23 MINGW64 ~`  
-`$ git config --global user.email gitLab이메일주소`  
+`$ git config --global user.email 깃허브_이메일주소`  
 `AI@DESKTOP-B76SA23 MINGW64 ~`  
 `$ git config --global --list`  
 `user.name=아이디 확인 가능`  
