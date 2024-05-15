@@ -22,3 +22,7 @@
 #### What to note when writing TIL. (TIL 작성 시 유의점)
 > TIL is <b>concise</b>, but it should be written <b>easily for anyone to understand</b>.  
 (TIL은 <b>간결</b>하지만 <b>작성자가 아닌 사람이 봐도 이해가 가능</b>하도록 작성하는 것이 좋습니다.)
+
+---
+# My TIL(2024.05.15 ~ )
+<a href="TIL/til_20240515.md" target="_blank">2024.05.15.Wed</a>
