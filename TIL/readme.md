@@ -14,7 +14,7 @@
 #### 3. To show what kind of concerns I have as a developer. (어떤 고민을 하는 개발자인지 어필하기 위해)
 ---
 ## Contents that must be included in the TIL. (TIL에 꼭 들어가야 하는 내용)  
-  - What kind of problems were there? (어떤 문제가 있었는지)
+  - What kind of problems happened? (어떤 문제가 있었는지)
   - Things I've tried. (내가 시도해본 것들)
   - How did I solve it? (어떻게 해결했는지)
   - What did you learn? (무엇을 새롭게 알았는지)
