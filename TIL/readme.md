@@ -25,4 +25,4 @@
 
 ---
 # My TIL(2024.05.15 ~ )
-<a href="/til_20240515.md" target="_blank">2024.05.15.Wed</a>
+<a href="https://github.com/MinjuKang727/I_am_Super_Junior/blob/8d59fe20e990164f934a250e0ce16f28e8112e67/TIL/til_20240515.md" target="_blank">2024.05.15.Wed</a>
