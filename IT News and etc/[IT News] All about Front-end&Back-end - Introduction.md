@@ -1,5 +1,5 @@
 Sparta Coding Club | Blog | Article
-# 비전공자도 이해할 수 있는 프론트엔드, 백엔드의 모든 것 - 입문편(프론트엔드와 벡엔드의 뜻, 언어 등)
+# <a href="https://spartacodingclub.kr/blog/frontend-backend-1" target="_blank">비전공자도 이해할 수 있는 프론트엔드, 백엔드의 모든 것 - 입문편(프론트엔드와 벡엔드의 뜻, 언어 등)</a>
 2021.9.27 | 김지바
 
 - 웹 애플리케이션(= 웹 사이트)
