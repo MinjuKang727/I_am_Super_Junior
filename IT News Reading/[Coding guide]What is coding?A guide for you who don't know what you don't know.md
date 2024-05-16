@@ -1,5 +1,5 @@
 Sparta Coding Club | Blog | Coding guide
-# 코딩이란? '뭘 모르는지 모르는 당신을 위한 가이드'
+# <a href="https://spartacodingclub.kr/blog/coding-guide" target="_blank">코딩이란? '뭘 모르는지 모르는 당신을 위한 가이드'</a>
 2022.5.4/ credit_글 | 이상우 팀스파르타 에이터
 
 - <b>컴퓨터</b>: 여러 부품들을 모아둔 기계들의 집합체
