@@ -4,7 +4,7 @@
 
 <img align="right" src="https://github.com/MinjuKang727/private/blob/main/I'm%20Super%20Junior/data/schedule%20table.png" >
 
-<i>Let's wrap up the day with</i> TIL
+<i>Let's wrap up the day with</i> <a href="https://github.com/MinjuKang727/I_am_Super_Junior/blob/b4789010365b118d18390170941b9026acf20345/TIL/readme.md" target="_blank">TIL</a>
 ### 2024.07.15 ~ 2024.11.25 (Planned) Back-end course(5th Java&Spring) of nb camp in Spartan Coding Club open.
 ### 2024.05.16 [Sparta Sprint] 2th SQLD Certification Challenge Start!
 <i> There are less than 2 weeks until SQLD exam. so, Just I want them to open lecture today...</i>
