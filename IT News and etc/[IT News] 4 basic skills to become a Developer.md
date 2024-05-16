@@ -1,5 +1,5 @@
 요즘IT | 개발
-# 개발자로 거듭나기⋯ 네 가지 기본 소양을 기억하세요
+# <a href="https://yozm.wishket.com/magazine/detail/1921/" target="_blank">개발자로 거듭나기⋯ 네 가지 기본 소양을 기억하세요</a>
 2023.03.07 | 골든래빗
 
 ## 개발자의 기본 소양
