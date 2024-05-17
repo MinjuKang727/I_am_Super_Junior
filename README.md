@@ -6,6 +6,7 @@
 
 <i>Let's wrap up the day with</i> <a href="https://github.com/MinjuKang727/I_am_Super_Junior/blob/b4789010365b118d18390170941b9026acf20345/TIL/readme.md" target="_blank">TIL</a>
 ### 2024.07.15 ~ 2024.11.25 (Planned) Back-end course(5th Java&Spring) of nb camp in Spartan Coding Club open.
+### 2024.05.20 ~ 2024.06.28 (Planned) 99 Club Coding Test Study
 ### 2024.05.16 [Sparta Sprint] 2th SQLD Certification Challenge Start!
 <i> There are less than 2 weeks until SQLD exam. so, Just I want them to open lecture today...</i>
 ### 2024.05.15 (Backend Development Study Restarted)
