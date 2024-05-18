@@ -9,11 +9,13 @@ My language/level: `Java/Beginner`
 **`미션1` 문제 풀이 인증하기!**  
 **`미션2` 게더타운 입장 인증하기!**  
 **`미션3` TIL 링크 제출하기!**  
-<a href="https://docs.google.com/forms/d/e/1FAIpQLSf0GfMKSdiiCwzX_EfIaoAFQbDbo8dYlDN1tDnJa_v9cOiiqw/viewform" target="_blank">출석 인증 링크✅</a>  | <a href="https://docs.google.com/forms/d/e/1FAIpQLScq9ZriBrpLwVD_K3EOC7cgwSgUPnf343yiAx2MuUfKhfevfA/viewform" target="_blank">TIL 인증 링크✅</a>  
+
+[출석 인증 링크✅](https://docs.google.com/forms/d/e/1FAIpQLSf0GfMKSdiiCwzX_EfIaoAFQbDbo8dYlDN1tDnJa_v9cOiiqw/viewform){:target="_blank"}  | [TIL 인증 링크✅](https://docs.google.com/forms/d/e/1FAIpQLScq9ZriBrpLwVD_K3EOC7cgwSgUPnf343yiAx2MuUfKhfevfA/viewform){:target="_blank"}
+
 
 ![99Club | Schedule](https://github.com/MinjuKang727/I_am_Super_Junior/assets/108849480/efbdb484-d69a-48ac-b2c6-088dabe22df9)
 
-`월`/`목` = **문제 풀이 화면 캡쳐+게더타운(<a href="https://app.gather.town/app/ZvHM7H2ZepYUWDTO/99club" target="_blank">링크🍇</a>) 입장 캡쳐** `필수`  
+`월`/`목` = **문제 풀이 화면 캡쳐+게더타운([링크🍇](https://app.gather.town/app/ZvHM7H2ZepYUWDTO/99club){:target="_blank"}) 입장 캡쳐** `필수`  
 `화`/`수`/`금`/`토`/`일` = **문제 풀이 화면 캡쳐** `필수`
 > 스터디가 진행되는 기간 동안 **총 5회**🖐 이상 출석하지 않으면😱, 다음 기수에 참가할 수 없어요.☠  
 > 📞사전에 운영 매니저에게 연락을 주는 경우, **총 2회**✌에 한해 결석을 면제😍해 드립니다!
@@ -36,7 +38,8 @@ My language/level: `Java/Beginner`
 **`#99클럽 #코딩테스트 준비 #개발자 취업 #항해99 #TIL`**
 
 ---
-<a href="https://docs.google.com/spreadsheets/d/1TKiFGD2VViNDdhXwea3gcuQVH-LXlXnAugJV6vBTg1E/edit#gid=0" target="_blank">99Club 1기 문제은행</a>
+
+[99Club 1기 문제은행](https://docs.google.com/spreadsheets/d/1TKiFGD2VViNDdhXwea3gcuQVH-LXlXnAugJV6vBTg1E/edit#gid=0){: target="_blank"}
 
 ---
 
