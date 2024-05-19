@@ -71,3 +71,4 @@ My language/level: `Java/Beginner`
 ---
 
 [진행 가이드(링크✅)](https://99club-subpage.oopy.io/?240507?99club)
+[99클럽 1기 문제 은행(링크✅)](https://docs.google.com/spreadsheets/d/1BrwDX39Jm3hfpAAd0fnokIqdF8mqEjmV7qtpLIiE5gM/edit?usp=drive_link)
