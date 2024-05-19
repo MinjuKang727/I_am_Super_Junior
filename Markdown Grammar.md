@@ -26,6 +26,21 @@
 
 
 ---
+### Check-box(체크 박스)
+#### Empty Check-Box
+> You must put a space between brackets ([]).(대괄호([]) 사이를 한 칸 띄어써야 한다.)
+```md
+- [] brackets with no space(공백 없는 괄호)
+- [ ] brackets with a space(공백 있는 괄호)
+```
+
+<details>
+<summary>Results(실행 결과)</summary>
+
+- [] brackets with no space(공백 없는 괄호)
+- [ ] brackets with a space(공백 있는 괄호)
+</details>
+
 ### Code block(코드블록)
 
 #### Markdown grammar
