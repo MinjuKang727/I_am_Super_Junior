@@ -1,4 +1,4 @@
-# Begginer | [Pokemon](https://school.programmers.co.kr/learn/courses/30/lessons/1845)
+# Begginer | 해시 | [Pokemon](https://school.programmers.co.kr/learn/courses/30/lessons/1845)
 
 ## 문제 설명
 당신은 폰켓몬을 잡기 위한 오랜 여행 끝에, 홍 박사님의 연구실에 도착했습니다. 홍 박사님은 당신에게 자신의 연구실에 있는 총 N 마리의 폰켓몬 중에서 N/2마리를 가져가도 좋다고 했습니다.
@@ -44,8 +44,34 @@
 가장 많은 종류의 폰켓몬을 고르기 위해서는 3번 폰켓몬 한 마리와 2번 폰켓몬 두 마리를 고르거나, 혹은 3번 폰켓몬 두 마리와 2번 폰켓몬 한 마리를 고르면 됩니다. 따라서 최대 고를 수 있는 폰켓몬 종류의 수는 2입니다.  
 
 ---
-
 ## My Solution 1
+```java
+import java.util.HashMap;
+
+class Solution {
+    public int solution(int[] nums) {
+        int answer = nums.length/2;
+        HashMap<Integer, Integer> h1 = new HashMap<Integer, Integer>();
+        
+        for(Integer num : nums) {
+            h1.put(num, h1.getOrDefault(num, 0) + 1);
+        }
+        
+        answer = Integer.min(answer, h1.size());
+        
+        return answer;
+        
+    }
+}
+```
+<details>
+  <summary>Accuracy Test Results(정확성 테스트 결과)</summary>
+  
+  ![채점 결과](https://github.com/MinjuKang727/I_am_Super_Junior/assets/108849480/290f724d-60d6-4e84-a51a-867ee61fd944)
+</details>
+<br>
+
+## My Solution 2
 ```java
 import java.util.Arrays;
 
@@ -62,11 +88,11 @@ class Solution {
 <details>
   <summary>Accuracy Test Results(정확성 테스트 결과)</summary>
   
-  <img alt="sol1_accuracy_test_result" src="https://github.com/MinjuKang727/I_am_Super_Junior/assets/108849480/6bca0106-1d0a-4906-8fd6-ead44d6f07df">
+  <img alt="sol2_accuracy_test_result" src="https://github.com/MinjuKang727/I_am_Super_Junior/assets/108849480/6bca0106-1d0a-4906-8fd6-ead44d6f07df">
 </details>
 <br>
 
-## My Solution 2
+## My Solution 3
 ```java
 import java.util.Arrays;
 
@@ -83,11 +109,11 @@ class Solution {
 <details>
   <summary>Accuracy Test Results(정확성 테스트 결과)</summary>
   
-  ![sol2_accuracy test](https://github.com/MinjuKang727/I_am_Super_Junior/assets/108849480/391bfa39-0c2f-469b-bdf6-c3a9c5e7ff3e)
+  ![sol3_accuracy test](https://github.com/MinjuKang727/I_am_Super_Junior/assets/108849480/391bfa39-0c2f-469b-bdf6-c3a9c5e7ff3e)
 </details>
 <br>
 
-## My Solution 3
+## My Solution 4
 ```java
 import java.util.Arrays;
 
@@ -104,7 +130,7 @@ class Solution {
 <details>
   <summary>Accuracy Test Results(정확성 테스트 결과)</summary>
   
-  ![sol3_accuracy test](https://github.com/MinjuKang727/I_am_Super_Junior/assets/108849480/57a09e7d-0692-4247-b185-706f339f83a6)
+  ![sol4_accuracy test](https://github.com/MinjuKang727/I_am_Super_Junior/assets/108849480/57a09e7d-0692-4247-b185-706f339f83a6)
 </details>
 <br>
 
