@@ -79,3 +79,5 @@ class Solution {
 [[JAVA] 문자열 자르기 ( indexOf()/ substring() / split() )](https://jul-liet.tistory.com/203)  
 [[Java] 배열 중복 값 제거하기 (Set, Stream)](https://hianna.tistory.com/554)  
 [[Java] 문자열에 특정 문자 포함 여부 확인하기 - contains, indexOf, matches](https://hianna.tistory.com/539)  
+[☕ JAVA 배열(Array) 완벽 다루기 가이드](https://inpa.tistory.com/entry/JAVA-%E2%98%95-%EC%9E%90%EB%B0%94-%EB%B0%B0%EC%97%B4Array-%EB%AC%B8%EB%B2%95-%EC%9D%91%EC%9A%A9-%EC%B4%9D%EC%A0%95%EB%A6%AC)  
+[[JAVA] 자바 임포트(import)란](https://mozi.tistory.com/549)
