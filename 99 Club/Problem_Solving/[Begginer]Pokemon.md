@@ -53,26 +53,6 @@ class Solution {
     public int solution(int[] nums) {
         int answer = nums.length/2;
         int typeN = Arrays.stream(nums).distinct().toArray().length;
-
-        return (answer > typeN) ? typeN: answer;
-    }
-}
-```
-<details>
-  <summary>Accuracy Test Results(정확성 테스트 결과)</summary>
-  
-  <img alt="sol1_accuracy_test_result" src="https://github.com/MinjuKang727/I_am_Super_Junior/assets/108849480/c537a3d9-276a-483c-8bf3-bf6439cc1789">
-</details>
-<br>
-
-## My Solution 2
-```java
-import java.util.Arrays;
-
-class Solution {
-    public int solution(int[] nums) {
-        int answer = nums.length/2;
-        int typeN = Arrays.stream(nums).distinct().toArray().length;
         answer = (answer > typeN) ? typeN: answer;
         
         return answer;
@@ -82,11 +62,11 @@ class Solution {
 <details>
   <summary>Accuracy Test Results(정확성 테스트 결과)</summary>
   
-  <img alt="sol2_accuracy_test_result" src="https://github.com/MinjuKang727/I_am_Super_Junior/assets/108849480/6bca0106-1d0a-4906-8fd6-ead44d6f07df">
+  <img alt="sol1_accuracy_test_result" src="https://github.com/MinjuKang727/I_am_Super_Junior/assets/108849480/6bca0106-1d0a-4906-8fd6-ead44d6f07df">
 </details>
 <br>
 
-## My Solution 3
+## My Solution 2
 ```java
 import java.util.Arrays;
 
@@ -103,32 +83,11 @@ class Solution {
 <details>
   <summary>Accuracy Test Results(정확성 테스트 결과)</summary>
   
-  ![sol3_accuracy test](https://github.com/MinjuKang727/I_am_Super_Junior/assets/108849480/391bfa39-0c2f-469b-bdf6-c3a9c5e7ff3e)
+  ![sol2_accuracy test](https://github.com/MinjuKang727/I_am_Super_Junior/assets/108849480/391bfa39-0c2f-469b-bdf6-c3a9c5e7ff3e)
 </details>
 <br>
 
-## My Solution 4
-```java
-import java.util.Arrays;
-
-class Solution {
-    public int solution(int[] nums) {
-        int answer = nums.length/2;
-        int typeN = Arrays.stream(nums).distinct().toArray().length;
-        if (answer > typeN) return typeN;
-        
-        return answer;
-    }
-}
-```
-<details>
-  <summary>Accuracy Test Results(정확성 테스트 결과)</summary>
-
-  ![sol4_accuracy test](https://github.com/MinjuKang727/I_am_Super_Junior/assets/108849480/0414e7bc-622d-4020-94cb-5a9bb9723637)
-</details>
-<br>
-
-## My Solution 5
+## My Solution 3
 ```java
 import java.util.Arrays;
 
@@ -145,51 +104,7 @@ class Solution {
 <details>
   <summary>Accuracy Test Results(정확성 테스트 결과)</summary>
   
-  ![sol5_accuracy test](https://github.com/MinjuKang727/I_am_Super_Junior/assets/108849480/57a09e7d-0692-4247-b185-706f339f83a6)
-</details>
-<br>
-
-## My Solution 6
-```java
-import java.util.Arrays;
-
-class Solution {
-    public int solution(int[] nums) {
-        int answer = nums.length/2;
-        int typeN = Arrays.stream(nums).distinct().toArray().length;
-        if (answer > typeN) {
-            answer = typeN;
-        }
-        
-        return answer;
-    }
-}
-```
-<details>
-  <summary>Accuracy Test Results(정확성 테스트 결과)</summary>
-  
-  ![sol6_accuracy test](https://github.com/MinjuKang727/I_am_Super_Junior/assets/108849480/39ed461a-5817-451f-a689-a6e26a34066f)
-</details>
-<br>
-
-## My Solution 7
-```java
-import java.util.Arrays;
-
-class Solution {
-    public int solution(int[] nums) {
-        int answer = nums.length/2;
-        int typeN = Arrays.stream(nums).distinct().toArray().length;
-        if (answer > typeN) {answer = typeN; }
-        
-        return answer;
-    }
-}
-```
-<details>
-  <summary>Accuracy Test Results(정확성 테스트 결과)</summary>
-  
-  ![sol7_accuracy test](https://github.com/MinjuKang727/I_am_Super_Junior/assets/108849480/a1ce4e64-bde5-48bf-913d-8fcf731e1764)
+  ![sol3_accuracy test](https://github.com/MinjuKang727/I_am_Super_Junior/assets/108849480/57a09e7d-0692-4247-b185-706f339f83a6)
 </details>
 <br>
 
@@ -199,7 +114,7 @@ class Solution {
 
 *여기부터는 다른 사람들이 쓴 코드*
 
-## My Solution 
+## Other Solution 
 ```java
 import java.util.Arrays;
 import java.util.stream.Collectors;
