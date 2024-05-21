@@ -1,4 +1,9 @@
-# Begginer | 해시 | [Pokemon](https://school.programmers.co.kr/learn/courses/30/lessons/1845)
+<img src="https://github.com/MinjuKang727/I_am_Super_Junior/assets/108849480/8605da06-268c-4eb3-9d78-396a1f659226" alt="Pokemonster" width="100px" align="left">
+
+Beginner | Java
+
+# 해시 | [Pokemon](https://school.programmers.co.kr/learn/courses/30/lessons/1845)
+
 
 ## 문제 설명
 당신은 폰켓몬을 잡기 위한 오랜 여행 끝에, 홍 박사님의 연구실에 도착했습니다. 홍 박사님은 당신에게 자신의 연구실에 있는 총 N 마리의 폰켓몬 중에서 N/2마리를 가져가도 좋다고 했습니다.
@@ -44,7 +49,35 @@
 가장 많은 종류의 폰켓몬을 고르기 위해서는 3번 폰켓몬 한 마리와 2번 폰켓몬 두 마리를 고르거나, 혹은 3번 폰켓몬 두 마리와 2번 폰켓몬 한 마리를 고르면 됩니다. 따라서 최대 고를 수 있는 폰켓몬 종류의 수는 2입니다.  
 
 ---
-## My Solution 1
+## ✔ Solution with HashSet
+```java
+import java.util.HashSet;
+
+class Solution {
+    public int solution(int[] nums) {
+        int answer = nums.length/2;
+        HashSet<Integer> hs = new HashSet<>();
+        
+        for(Integer num : nums) {
+            hs.add(num);
+        }
+        
+        answer = Integer.min(answer, hs.size());
+        
+        return answer;
+        
+    }
+}
+```
+<details>
+  <summary>Accuracy Test Results(정확성 테스트 결과)</summary>
+  
+  ![image](https://github.com/MinjuKang727/I_am_Super_Junior/assets/108849480/cd36f191-0b6c-4b6c-b773-2a914d88aa40)
+
+</details>
+<br>
+
+## ✔ Solution with HashMap
 ```java
 import java.util.HashMap;
 
@@ -71,7 +104,7 @@ class Solution {
 </details>
 <br>
 
-## My Solution 2
+## ✔ Solution with Array and ternary operator
 ```java
 import java.util.Arrays;
 
@@ -92,7 +125,7 @@ class Solution {
 </details>
 <br>
 
-## My Solution 3
+## ✔ Solution with Array and `.min()`
 ```java
 import java.util.Arrays;
 
@@ -112,29 +145,6 @@ class Solution {
   ![sol3_accuracy test](https://github.com/MinjuKang727/I_am_Super_Junior/assets/108849480/391bfa39-0c2f-469b-bdf6-c3a9c5e7ff3e)
 </details>
 <br>
-
-## My Solution 4
-```java
-import java.util.Arrays;
-
-class Solution {
-    public int solution(int[] nums) {
-        int answer = nums.length/2;
-        int typeN = Arrays.stream(nums).distinct().toArray().length;
-        if (answer > typeN) answer = typeN;
-        
-        return answer;
-    }
-}
-```
-<details>
-  <summary>Accuracy Test Results(정확성 테스트 결과)</summary>
-  
-  ![sol4_accuracy test](https://github.com/MinjuKang727/I_am_Super_Junior/assets/108849480/57a09e7d-0692-4247-b185-706f339f83a6)
-</details>
-<br>
-
-*여기까지는 그냥 내가 아는 선에서 더 코드를 조금 수정할 때마다 속도가 달라질까? 어떻게 달라질까? 궁금해 서 써 본 코드*
 
 ---
 
