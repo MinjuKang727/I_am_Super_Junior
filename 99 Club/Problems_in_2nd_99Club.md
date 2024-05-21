@@ -4,6 +4,8 @@
 - [x] [포켓몬](https://school.programmers.co.kr/learn/courses/30/lessons/1845)  
   <details>
     <summary>문제 풀이 인증</summary>
+
+    <br> 더 많은 풀이([링크🔗](https://github.com/MinjuKang727/I_am_Super_Junior/blob/5de57f3953d86fb130ce55beb029934843d47e54/99%20Club/Problem_Solving/%5BBegginer%5DPokemon.md))
     
     ```java
     import java.util.HashSet;
@@ -31,7 +33,8 @@
 - [x] [완주하지 못한 선수](https://school.programmers.co.kr/learn/courses/30/lessons/42576)
   <details>
     <summary>문제 풀이 인증</summary>
-    
+
+    <br> 더 많은 풀이([링크🔗](https://github.com/MinjuKang727/I_am_Super_Junior/blob/main/99%20Club/Problem_Solving/%5BBegginer%5DAn_incompleted_runner.md))
     ```java
     import java.util.HashMap;
     import java.util.Map.Entry;
