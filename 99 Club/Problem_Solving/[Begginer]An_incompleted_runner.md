@@ -83,23 +83,42 @@ class Solution {
     // completion : 완주한 선수 이름 배열
     // 미완주 선수 1명
     public String solution(String[] participant, String[] completion) {
+        /* 
+        풀이
+        (참자자 중에는 동명이인이 있을 수 있으므로 HashSet은 적절하지 않다고 판단함.)
+        참가 선수명을 키(Key), (해당 이름의 명수 + 1)을 값(Value)으로 HashMap에 추가(업데이트)
+        완주 선수명을 키(Key), (해당 이름의 명수 + 1)을 값(Value)으로 HashMap에 추가(업데이트)
+        HashMap에 남아있는 선수 명단을 .keySet() 메서드로 가져와 미완주 선수를 반환 
+        */
         
         String answer = "";
         
         HashMap<String, Integer> hm = new HashMap<>();
+        // 완주 선수 명수
         int n_completion = completion.length;
+        // 참가 선수명, 완주 선수명 넣을 문자열 변수
         String p_runner, c_runner;
         
+        // 완주 선수 명수는 참가 선수 명수보다 1명 적기 때문에 완주 선수 명수로 반복문 실행
         for (int i = 0; i < n_completion; i++) {
+            // 참가 선수명 초기화
             p_runner = participant[i];
+            // 완주 선수명 초기화
             c_runner= completion[i];
                      
+            // 참가 선수명을 키(Key), (해당 이름의 명수 + 1)을 값(Value)으로 HashMap에 추가(업데이트)
             hm.put(p_runner, hm.getOrDefault(p_runner, 0) + 1);
+            // 완주 선수명을 키(Key), (해당 이름의 명수 - 1)을 값(Value)으로 HashMap에 추가(업데이트)
             hm.put(c_runner, hm.getOrDefault(c_runner, 0) - 1);
         }
+        
+        // 마지막 참가 선수명 초기화
         p_runner = participant[n_completion];
+        // 마지막 참가 선수명을 키(Key), (해당 이름의 명수 + 1)을 값(Value)으로 HashMap에 추가(업데이트)
         hm.put(p_runner, hm.getOrDefault(p_runner, 0) + 1);
                 
+        // HashMap의 keySet으로 for-each문을 돌려서 key에 대한 value값이 1인 key의 값을 구하자.
+        // (해당 key = 미완주 선수 이름)
         for (String runner : hm.keySet()) {
             if(hm.get(runner) == 1) {
                 answer = runner;
