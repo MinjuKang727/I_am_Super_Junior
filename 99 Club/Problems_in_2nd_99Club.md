@@ -77,7 +77,7 @@
   <details>
     <summary>문제 풀이 인증</summary>
 
-    더 많은 풀이([링크🔗](https://github.com/MinjuKang727/I_am_Super_Junior/blob/e5992a2f38d068c79989e74d70ba2f5a6928483a/99%20Club/Problem_Solving/%5BMiddler%5DList_of_Phone_Number.md))
+    <br>더 많은 풀이([링크🔗](https://github.com/MinjuKang727/I_am_Super_Junior/blob/e5992a2f38d068c79989e74d70ba2f5a6928483a/99%20Club/Problem_Solving/%5BMiddler%5DList_of_Phone_Number.md))
     
     ```java
    import java.util.HashSet;
