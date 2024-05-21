@@ -73,14 +73,33 @@
 <br>
 
 ## 미들러
-- [ ] [전화번호 목록](https://school.programmers.co.kr/learn/courses/30/lessons/42577)  
+- [x] [전화번호 목록](https://school.programmers.co.kr/learn/courses/30/lessons/42577)  
   <details>
-    <img alt="" src="" width="50%" align="right">
     <summary>문제 풀이 인증</summary>
+
+    더 많은 풀이([링크🔗](https://github.com/MinjuKang727/I_am_Super_Junior/blob/e5992a2f38d068c79989e74d70ba2f5a6928483a/99%20Club/Problem_Solving/%5BMiddler%5DList_of_Phone_Number.md))
     
     ```java
-   
+   import java.util.HashSet;
+
+    class Solution {
+        public int solution(int[] nums) {
+            int answer = nums.length/2;
+            HashSet<Integer> hs = new HashSet<>();
+            
+            for(Integer num : nums) {
+                hs.add(num);
+            }
+            
+            answer = Integer.min(answer, hs.size());
+            
+            return answer;
+            
+        }
+    }
     ```
+    
+    <img alt="https://github.com/MinjuKang727/I_am_Super_Junior/assets/108849480/47fceb33-b9ea-4c6c-aee9-4ecefd697684" src="">
   </details>
   <br>
   
