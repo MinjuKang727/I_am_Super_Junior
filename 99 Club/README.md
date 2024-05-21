@@ -26,8 +26,10 @@ My language/level: `Java/Beginner`
 > ※양식을 꼭 지켜주세요! 필수 항목 (제목, 해시태그)을 정확히 지키지 않은 경우, 출석 인정이 불가합니다.
 
 ```md
-
-##### 자바 | 비기너
+<img src="https://github.com/MinjuKang727/private/blob/main/I'm%20Super%20Junior/data/99club.png" alt="99Club">
+<img src="https://github.com/MinjuKang727/private/blob/main/I'm%20Super%20Junior/data/flip.gif" alt="gather town avatar" width="100px" align="left">
+#### 자바 | 비기너
+---
 # 99클럽 코테 스터디 0일차 TIL + 오늘의 학습 키워드
 
 ## 🗝 오늘의 학습 키워드  
