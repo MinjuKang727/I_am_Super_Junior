@@ -1,5 +1,5 @@
 자바 | 비기너
-# 🔢 스택/큐 | 같은 숫자는 싫어😠
+# 🔢 스택/큐 | [같은 숫자는 싫어](https://school.programmers.co.kr/learn/courses/30/lessons/12906)😠
 
 ## 문제 설명
 배열 arr가 주어집니다. 배열 arr의 각 원소는 숫자 0부터 9까지로 이루어져 있습니다.  
