@@ -132,80 +132,83 @@
     
     <img alt="문제 풀이 인증 사진" src="https://github.com/MinjuKang727/I_am_Super_Junior/assets/108849480/47fceb33-b9ea-4c6c-aee9-4ecefd697684">
   </details>
+  
   <br>
+  
 - [-] [의상](https://school.programmers.co.kr/learn/courses/30/lessons/42578)
 
   <details>
-      <summary>문제 풀이 인증</summary>
+    <summary>문제 풀이 인증</summary>
+
+    ```java
+    import java.util.*;
+
+    class Solution {
+        public int solution(String[][] clothes) {
+            int answer = 0;
+            
+            HashMap<HashSet, Integer> hm = new HashMap<>();
+            HashSet<String> allClothes = new HashSet<>();
+            
+            for (String[] cloth : clothes) {
+                allClothes.add(cloth[1]);
+                HashSet<String> hs = new HashSet<>();
+                hs.add(cloth[1]);
+                hm.put(hs, hm.getOrDefault(hs, 0) + 1);
+            }
+            
+            String[] arr = allClothes.toArray(new String[allClothes.size()]);
+            while(!hm.containsKey(allClothes)){
+                HashMap<HashSet, Integer> tempHm = new HashMap<>();
+                
+                for (HashSet hs : hm.keySet()) {
+                    for (String type : arr) {
+                       if (!hs.contains(type)){
+                            HashSet<String> nextHs = new HashSet<>();
+                            nextHs.add(type);
+                            int value = hm.get(hs) * hm.get(nextHs);
+                            nextHs.addAll(hs);
+                            tempHm.put(nextHs, value);
+                        } 
+                    }
+                }
+                for (HashSet hs : tempHm.keySet()) {
+                    hm.put(hs, tempHm.get(hs));
+                }
+            }
+            
+            while(!hm.containsKey(allClothes)){
+                HashMap<HashSet, Integer> tempHm = new HashMap<>();
+                
+                for (HashSet hs : hm.keySet()) {
+                    Iterator<String> it = allClothes.iterator();
+                    while(it.hasNext()) {
+                        String type = it.next();
+                        if (!hs.contains(type)){
+                            HashSet<String> nextHs = new HashSet<>();
+                            nextHs.add(type);
+                            int value = hm.get(hs) * hm.get(nextHs);
+                            nextHs.addAll(hs);
+                            tempHm.put(nextHs, value);
+                        }
+                        
+                    }
+                }
+                for (HashSet hs : tempHm.keySet()) {
+                    hm.put(hs, tempHm.get(hs));
+                }
+            }
+            
+            for (int n : hm.values()) {
+                answer += n;
+            }
+            return answer;
+        }
+    }
+    ```
+
+    <img alt="문제 풀이 인증 사진" src="https://github.com/MinjuKang727/I_am_Super_Junior/assets/108849480/0d3683b3-7bb6-4d6d-8a97-572358bd1918">
   
-      ```java
-      import java.util.*;
-  
-      class Solution {
-          public int solution(String[][] clothes) {
-              int answer = 0;
-              
-              HashMap<HashSet, Integer> hm = new HashMap<>();
-              HashSet<String> allClothes = new HashSet<>();
-              
-              for (String[] cloth : clothes) {
-                  allClothes.add(cloth[1]);
-                  HashSet<String> hs = new HashSet<>();
-                  hs.add(cloth[1]);
-                  hm.put(hs, hm.getOrDefault(hs, 0) + 1);
-              }
-              
-              String[] arr = allClothes.toArray(new String[allClothes.size()]);
-              while(!hm.containsKey(allClothes)){
-                  HashMap<HashSet, Integer> tempHm = new HashMap<>();
-                  
-                  for (HashSet hs : hm.keySet()) {
-                      for (String type : arr) {
-                         if (!hs.contains(type)){
-                              HashSet<String> nextHs = new HashSet<>();
-                              nextHs.add(type);
-                              int value = hm.get(hs) * hm.get(nextHs);
-                              nextHs.addAll(hs);
-                              tempHm.put(nextHs, value);
-                          } 
-                      }
-                  }
-                  for (HashSet hs : tempHm.keySet()) {
-                      hm.put(hs, tempHm.get(hs));
-                  }
-              }
-              
-              while(!hm.containsKey(allClothes)){
-                  HashMap<HashSet, Integer> tempHm = new HashMap<>();
-                  
-                  for (HashSet hs : hm.keySet()) {
-                      Iterator<String> it = allClothes.iterator();
-                      while(it.hasNext()) {
-                          String type = it.next();
-                          if (!hs.contains(type)){
-                              HashSet<String> nextHs = new HashSet<>();
-                              nextHs.add(type);
-                              int value = hm.get(hs) * hm.get(nextHs);
-                              nextHs.addAll(hs);
-                              tempHm.put(nextHs, value);
-                          }
-                          
-                      }
-                  }
-                  for (HashSet hs : tempHm.keySet()) {
-                      hm.put(hs, tempHm.get(hs));
-                  }
-              }
-              
-              for (int n : hm.values()) {
-                  answer += n;
-              }
-              return answer;
-          }
-      }
-      ```
-  
-      <img alt="문제 풀이 인증 사진" src="https://github.com/MinjuKang727/I_am_Super_Junior/assets/108849480/0d3683b3-7bb6-4d6d-8a97-572358bd1918">
   <details>
     
   <br>
