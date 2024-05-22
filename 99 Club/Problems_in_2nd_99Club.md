@@ -72,6 +72,37 @@
   </details>
 <br>
 
+- [x] [같은 숫자는 싫어](https://school.programmers.co.kr/learn/courses/30/lessons/12906)
+  <details>
+      <summary>문제 풀이 인증</summary>
+  
+      <br> 더 많은 풀이([링크🔗](https://github.com/MinjuKang727/I_am_Super_Junior/blob/26ea2f28d5e17f1c34de713519e261b29d71c927/99%20Club/Problem_Solving/%5BBegginer%5DI_hate_same_numbers.md))
+      ```java
+      import java.util.*;
+  
+      public class Solution {
+          public int[] solution(int []arr) {
+              int[] answer = {};
+              int prev = -1;
+              Stack<Integer> stack = new Stack<>();
+              
+              for (int num : arr) {
+                  if (num != prev) {
+                      stack.push(num);
+                  }
+                  prev = num;
+              }
+              
+              answer = stack.stream().mapToInt(x -> x).toArray();
+              return answer;
+          }
+      }
+      ```
+  
+      <img alt="풀이 인증 사진" src="https://github.com/MinjuKang727/I_am_Super_Junior/assets/108849480/733577e5-fbd2-44ff-bd58-c5c3de07c84f">
+    </details>
+<br>
+      
 ## 미들러
 - [x] [전화번호 목록](https://school.programmers.co.kr/learn/courses/30/lessons/42577)  
   <details>
@@ -99,11 +130,137 @@
     }
     ```
     
-    <img alt="https://github.com/MinjuKang727/I_am_Super_Junior/assets/108849480/47fceb33-b9ea-4c6c-aee9-4ecefd697684" src="">
+    <img alt="문제 풀이 인증 사진" src="https://github.com/MinjuKang727/I_am_Super_Junior/assets/108849480/47fceb33-b9ea-4c6c-aee9-4ecefd697684">
+  </details>
+  <br>
+- [-] [의상](https://school.programmers.co.kr/learn/courses/30/lessons/42578)
+
+  <details>
+      <summary>문제 풀이 인증</summary>
+  
+      ```java
+      import java.util.*;
+  
+      class Solution {
+          public int solution(String[][] clothes) {
+              int answer = 0;
+              
+              HashMap<HashSet, Integer> hm = new HashMap<>();
+              HashSet<String> allClothes = new HashSet<>();
+              
+              for (String[] cloth : clothes) {
+                  allClothes.add(cloth[1]);
+                  HashSet<String> hs = new HashSet<>();
+                  hs.add(cloth[1]);
+                  hm.put(hs, hm.getOrDefault(hs, 0) + 1);
+              }
+              
+              String[] arr = allClothes.toArray(new String[allClothes.size()]);
+              while(!hm.containsKey(allClothes)){
+                  HashMap<HashSet, Integer> tempHm = new HashMap<>();
+                  
+                  for (HashSet hs : hm.keySet()) {
+                      for (String type : arr) {
+                         if (!hs.contains(type)){
+                              HashSet<String> nextHs = new HashSet<>();
+                              nextHs.add(type);
+                              int value = hm.get(hs) * hm.get(nextHs);
+                              nextHs.addAll(hs);
+                              tempHm.put(nextHs, value);
+                          } 
+                      }
+                  }
+                  for (HashSet hs : tempHm.keySet()) {
+                      hm.put(hs, tempHm.get(hs));
+                  }
+              }
+              
+              while(!hm.containsKey(allClothes)){
+                  HashMap<HashSet, Integer> tempHm = new HashMap<>();
+                  
+                  for (HashSet hs : hm.keySet()) {
+                      Iterator<String> it = allClothes.iterator();
+                      while(it.hasNext()) {
+                          String type = it.next();
+                          if (!hs.contains(type)){
+                              HashSet<String> nextHs = new HashSet<>();
+                              nextHs.add(type);
+                              int value = hm.get(hs) * hm.get(nextHs);
+                              nextHs.addAll(hs);
+                              tempHm.put(nextHs, value);
+                          }
+                          
+                      }
+                  }
+                  for (HashSet hs : tempHm.keySet()) {
+                      hm.put(hs, tempHm.get(hs));
+                  }
+              }
+              
+              for (int n : hm.values()) {
+                  answer += n;
+              }
+              return answer;
+          }
+      }
+      ```
+  
+      <img alt="문제 풀이 인증 사진" src="https://github.com/MinjuKang727/I_am_Super_Junior/assets/108849480/0d3683b3-7bb6-4d6d-8a97-572358bd1918">
+  <details>
+    
+  <br>
+  
+- [x] [기능개발](https://school.programmers.co.kr/learn/courses/30/lessons/42586)  
+  <details>
+    <summary>문제 풀이 인증</summary>
+
+    <br>더 많은 풀이([링크🔗](https://github.com/MinjuKang727/I_am_Super_Junior/blob/main/99%20Club/Problem_Solving/%5BMiddler%5DFunctional_development.md))
+    
+    ```java
+     import java.util.Stack;
+    
+    class Solution {
+        public int[] solution(int[] progresses, int[] speeds) {
+            int[] answer = {};
+            Stack<Integer> stack = new Stack<>();
+            int release = 0;
+    
+            for(int i=0; i < progresses.length; i++) {
+                
+                if (progresses[i] >= 100) {
+                    release++;
+                    continue;
+                } else if (release != 0) {
+                    stack.push(release);
+                    release = 0; 
+                }
+    
+                
+                while(progresses[i] < 100) {
+                    for(int j = 0; j < progresses.length; j++) {
+                        progresses[j] += speeds[j];
+                    }
+                }
+    
+                release++;
+    
+            }
+            stack.push(release);
+    
+            answer = new int[stack.size()];
+    
+            for (int i = 0; i < stack.size(); i++) {
+                answer[i] = stack.elementAt(i);
+            }
+            return answer;
+        }
+    }
+    ```
+
+    <img alt="문제 풀이 인증 사진" src="https://github.com/MinjuKang727/I_am_Super_Junior/assets/108849480/590ea9ce-09b5-49e0-bed2-c6ddbcc11899">
   </details>
   <br>
   
-
 ## 챌린저
 - [ ] [베스트 앨범](https://school.programmers.co.kr/learn/courses/30/lessons/42579)  
   <details>
@@ -115,13 +272,78 @@
     ```
   </details>
   <br>
-  
-- [ ] 
+
+- [ ] [비슷한 단어](https://www.acmicpc.net/problem/2179)  
   <details>
-    <img alt="" src="" width="50%" align="right">
     <summary>문제 풀이 인증</summary>
     
     ```java
    
     ```
+    
+    <img alt="" src="">
+  </details>
+  <br>
+  
+- [x] [다리를 지나는 트럭](https://school.programmers.co.kr/learn/courses/30/lessons/42583)  
+  <details>
+    
+    <summary>문제 풀이 인증</summary>
+    
+    ```java
+    import java.util.LinkedList;
+    import java.util.Queue;
+    
+    class Solution {
+        // bridge_length : 트럭 최대 대수
+        // weight : 다리 최대 하중
+        // truck_weights : 트럭 무게 배열
+        public int solution(int bridge_length, int weight, int[] truck_weights) {
+            Queue<Integer> waiting = new LinkedList();
+            
+            for (int truck : truck_weights) {
+                waiting.offer(truck);
+            }
+            
+            Queue<Integer> OnBridge = new LinkedList();
+            int answer = 0;
+            int TruckOn = 0;
+            int WeightOn = 0;
+            
+            while(!waiting.isEmpty()) {
+                answer++;
+                if (!OnBridge.isEmpty() && OnBridge.size() == bridge_length) {
+                    TruckOn--;
+                    WeightOn -= OnBridge.poll();
+                }
+                
+                
+                if(TruckOn < bridge_length && WeightOn + waiting.peek() <= weight) {
+                    OnBridge.offer(waiting.peek());
+                    TruckOn++;
+                    WeightOn += waiting.poll();
+                } else {
+                    OnBridge.offer(0);
+                }
+            }
+            answer += bridge_length;
+            
+            return answer;
+        }
+    }
+    ```
+
+    <img alt="문제 풀이 인증 사진" src="https://github.com/MinjuKang727/I_am_Super_Junior/assets/108849480/3abd3cc1-db95-48aa-b727-b7035b189242">
+  </details>
+  <br>
+  
+- [ ] 
+  <details>
+    
+    <summary>문제 풀이 인증</summary>
+    
+    ```java
+   
+    ```
+    <img alt="문제 풀이 인증 사진" src="">
   </details>
