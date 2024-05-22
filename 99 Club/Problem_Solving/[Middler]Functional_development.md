@@ -208,7 +208,7 @@ class Solution {
 
 <br>
 
-<img src="https://github.com/MinjuKang727/I_am_Super_Junior/assets/108849480/b5b47e61-a57d-4bbe-9a4a-11e9605ab1c3" alt="기쁨의 댄스" align="left">
+<img src="https://github.com/MinjuKang727/I_am_Super_Junior/assets/108849480/f3b9023c-de71-454d-85c3-9b0fbbee24d9" alt="기쁨의 댄스" align="left">
 
 <br><br>
 
