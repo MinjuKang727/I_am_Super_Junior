@@ -1,6 +1,6 @@
 ![99 Club](https://github.com/MinjuKang727/private/blob/5b8825f229714253cb4a2b630b4cafca01d3cbbc/I'm%20Super%20Junior/data/99club.png)
 
-| Coding test studies with current developers
+| Coding test studies with other developers
 # 99 Club - coding test study 
 My language/level: `Java/Beginner`
 <br><br>
