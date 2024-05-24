@@ -26,19 +26,34 @@ My language/level: `Java/Beginner`
 > ※양식을 꼭 지켜주세요! 필수 항목 (제목, 해시태그)을 정확히 지키지 않은 경우, 출석 인정이 불가합니다.
 
 ```md
+
 <img src="https://github.com/MinjuKang727/private/blob/main/I'm%20Super%20Junior/data/99club.png" alt="99Club">
 <img src="https://github.com/MinjuKang727/private/blob/main/I'm%20Super%20Junior/data/flip.gif" alt="gather town avatar" width="100px" align="left">
 
 #### 자바 | 비기너
 # 99클럽 코테 스터디 0일차 TIL + 오늘의 학습 키워드
 
-## 🗝 오늘의 학습 키워드  
-## 📚 공부한 내용 본인의 언어로 정리하기  
+## 🗝 오늘의 학습 키워드
+
+<br>
+## 📚 공부한 내용 본인의 언어로 정리하기
+
+<br>
 ## ⌛ 오늘의 회고  
+
+<br>
 ## 💥 어떤 문제가 있었고, 나는 어떤 시도를 했는지💦  
+
+<br>
 ## 어떻게 해결했는지👍  
+
+<br>
 ## 💬 무엇을 새롭게 알았는지  
+
+<br>
 ## 💭 내일 학습할 것은 무엇인지
+
+<br>
 
 ---
 #### 해시태그
