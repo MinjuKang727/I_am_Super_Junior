@@ -1,5 +1,7 @@
-Programmers | Java | Begginer
-# K번째 변수
+<img src="https://github.com/MinjuKang727/I_am_Super_Junior/assets/108849480/11b3df56-3cac-4e4b-8079-f3b3a51452ea" align="left" width="10%" alt="Programmers">
+
+ | Java | Begginer
+# 🎱 K번째 변수
 
 ## 문제 설명
 배열 array의 i번째 숫자부터 j번째 숫자까지 자르고 정렬했을 때, k번째에 있는 수를 구하려 합니다.
