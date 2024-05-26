@@ -42,9 +42,7 @@ My language/level: `Java/Beginner`
 <br>
 
 ## ⌛ 오늘의 회고  
-```
 
-```
 <br>
 
 ## 💥 어떤 문제가 있었고, 나는 어떤 시도를 했는지💦  
