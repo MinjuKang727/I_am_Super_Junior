@@ -43,7 +43,7 @@ Explanation: There are 10 pairs of indices that satisfy the conditions in the st
 
 <br>
 
-Accepted **133.5K** | Submissions **153.3K** | Acceptance Rate **87.1%**
+Accepted&nbsp;&nbsp;&nbsp;&nbsp;**133.5K**&nbsp;&nbsp;|&nbsp;&nbsp;Submissions&nbsp;&nbsp;&nbsp;&nbsp;**153.3K**&nbsp;&nbsp;|&nbsp;&nbsp;Acceptance Rate&nbsp;&nbsp;&nbsp;&nbsp;**87.1%**
 
 ---
 
