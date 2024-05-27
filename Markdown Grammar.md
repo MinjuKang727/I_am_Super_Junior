@@ -32,6 +32,7 @@
 ```md
 - [] brackets with no space(공백 없는 괄호)
 - [ ] brackets with a space(공백 있는 괄호)
+- [x] marked bracket(표시된 괄호)
 ```
 
 <details>
@@ -39,6 +40,7 @@
 
 - [] brackets with no space(공백 없는 괄호)
 - [ ] brackets with a space(공백 있는 괄호)
+- [x] marked bracket(표시된 괄호)
 </details>
 
 ### Code block(코드블록)
@@ -265,6 +267,37 @@ CONTENTS
 <summary>Results(실행 결과)</summary>
 
 1st ROW<br>2nd ROW
+</details>
+
+---
+### Spacing(띄어쓰기)
+#### `&nbsp;`
+  > 또는 `&#160;`를 사용해도 됨.  
+  > 만약 되지 않는다면 아래 방법(2바이트 공백)을 사용하시오.  
+
+```md
+(    ) : 그냥 띄어쓰기
+($nbsp;$nbsp;$nbsp;$nbsp;) : 위의 방법으로 괄호 안 띄우기1  
+(&#160;&#160;&#160;&#160;) : 위의 방법으로 괄호 안 띄우기2  
+```
+<details>
+  <summar>Results(샐행 결과)</summar>
+
+  (    ) : 그냥 띄어쓰기  
+  ($nbsp;$nbsp;$nbsp;$nbsp;) : 위의 방법으로 괄호 안 띄우기1  
+  (&#160;&#160;&#160;&#160;) : 위의 방법으로 괄호 안 띄우기2  
+</details>
+
+#### 2바이트(전각) 공백 사용하기
+```md
+(　　　　　)
+괄호 안을 드래그해서 복사 + 붙여넣기 하세요.
+```
+<details>
+  <summar>Results(샐행 결과)</summar>
+
+  (　　　　　)  
+  괄호 안을 드래그해서 복사 + 붙여넣기 하세요.  
 </details>
 
 ---
