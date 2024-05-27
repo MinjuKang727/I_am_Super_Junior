@@ -1,7 +1,6 @@
 <img src="https://github.com/MinjuKang727/I_am_Super_Junior/assets/108849480/e0b54a2a-2ee6-41b8-95bb-8f4f71535aa4" alt="LeetCode" align="left" width="10%">
-<Br>
 
-&nbsp;  | Java | Easy
+|&nbsp;&nbsp;&nbsp;&nbsp;Java&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;Easy
 
 # 2824.Count Pairs Whose Sum is Less than Target
 
