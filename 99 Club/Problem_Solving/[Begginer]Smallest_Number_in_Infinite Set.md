@@ -1,6 +1,6 @@
-<img src="https://github.com/MinjuKang727/I_am_Super_Junior/assets/108849480/4669859d-b96f-4020-9d1b-8cdd063725aa" align="left" width="2%">
+<img src="https://github.com/MinjuKang727/I_am_Super_Junior/assets/108849480/e0b54a2a-2ee6-41b8-95bb-8f4f71535aa4" align="left" width="10%">
 
-LeetCode | 자바 | 비기너
+ | 자바 | 비기너
 # 🔢 2336. Smallest Number in Infinite Set
 `medium`
 
