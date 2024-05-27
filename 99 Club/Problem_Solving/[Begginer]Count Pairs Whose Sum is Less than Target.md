@@ -2,14 +2,13 @@
 
 | Java | Easy
 
-# [2824.Count Pairs Whose Sum is Less than Target]("https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/")
+# [2824.Count Pairs Whose Sum is Less than Target](https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/)
 
 Given a **0-indexed** integer array `nums` of length n and an integer `target`, return the number of pairs `(i, j)` where `0 <= i < j < n` and `nums\[i\] + nums\[j\] < target`.
 
 <br>
 
 ##### Example 1:
-
 ```
 Input: nums = [-1,1,2,3,1], target = 2
 Output: 3
@@ -21,7 +20,6 @@ Note that (0, 3) is not counted since nums[0] + nums[3] is not strictly less tha
 ```
 
 ##### Example 2:
-
 ```
 Input: nums = [-6,2,5,-2,-7,-1,3], target = -2
 Output: 10
@@ -37,12 +35,13 @@ Explanation: There are 10 pairs of indices that satisfy the conditions in the st
 - (4, 5) since 4 < 5 and nums[4] + nums[5] = -8 < target
 - (4, 6) since 4 < 6 and nums[4] + nums[6] = -4 < target
 ```
-
+<br>
 
 ##### Constraints:
+- `1 <= nums.length == n <= 50`
+- `-50 <= nums[i], target <= 50`
 
--   `1 <= nums.length == n <= 50`
--   `-50 <= nums[i], target <= 50`
+<br>
 
 Accepted **133.5K** | Submissions **153.3K** | Acceptance Rate **87.1%**
 
@@ -68,10 +67,10 @@ class Solution {
 }
 ```
 <details>
-    <summary>채점 결과</summary>
-
-    <img src="https://github.com/MinjuKang727/I_am_Super_Junior/assets/108849480/e3fe1ce4-3b5c-4443-a116-88b338274518" alt="codingTest_result">
+  <summary>채점 결과</summary>
     
+    
+  ![codingTest_result](https://github.com/MinjuKang727/I_am_Super_Junior/assets/108849480/e3fe1ce4-3b5c-4443-a116-88b338274518)
 </details>
 
 <br>
@@ -79,8 +78,12 @@ class Solution {
 ## 💥 어떤 문제가 있었고, 나는 어떤 시도를 했는지💦
 - 리스트의 메서드가 잘 기억이 나지 않았음
 
+<br>
+
 ## 어떻게 해결했는지👍
 - `ArrayList 메서드`를 구글에 검색
+
+<br>
 
 ## 💬 무엇을 새롭게 알았는지
 - 리스트의 크기 구하기 : `size()`
