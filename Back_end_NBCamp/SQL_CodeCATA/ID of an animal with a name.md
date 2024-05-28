@@ -1,5 +1,5 @@
 <img src="https://github.com/MinjuKang727/I_am_Super_Junior/assets/108849480/76b4882b-8e97-408f-a9b2-5b262f2554d7" alt="programmers logo" align="left" width="20%">
-|&nbsp;&nbsp; Oracle
+**|&nbsp;&nbsp; Oracle**
 
 # **🐹 이름이 있는 동물의 아이디**
 🔖 **Topic** : `IS NULL`  
