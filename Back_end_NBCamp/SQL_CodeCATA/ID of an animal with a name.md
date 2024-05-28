@@ -2,7 +2,7 @@
 **|&nbsp;&nbsp; Oracle**
 
 # **🐹 이름이 있는 동물의 아이디**
-🔖 **Topic** : `IS NULL`  
+🏷 **Topic** :&nbsp;&nbsp;  `IS NULL`  
 
 #### **문제 설명**
 
