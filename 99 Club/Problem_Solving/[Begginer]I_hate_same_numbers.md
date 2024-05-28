@@ -1,5 +1,8 @@
-자바 | 비기너
-# 🔢 스택/큐 | [같은 숫자는 싫어](https://school.programmers.co.kr/learn/courses/30/lessons/12906)😠
+<img src="https://github.com/MinjuKang727/I_am_Super_Junior/assets/108849480/76b4882b-8e97-408f-a9b2-5b262f2554d7" alt="programmers logo" align="left" width="20%">
+
+**| Java | 스택/큐**
+
+# 🔢 [같은 숫자는 싫어](https://school.programmers.co.kr/learn/courses/30/lessons/12906)😠
 
 ## 문제 설명
 배열 arr가 주어집니다. 배열 arr의 각 원소는 숫자 0부터 9까지로 이루어져 있습니다.  
@@ -57,11 +60,13 @@ public class Solution {
   ![채점 결과](https://github.com/MinjuKang727/I_am_Super_Junior/assets/108849480/28b8f0df-c7e2-47f4-b13d-02e7dfbb22e9)
 
 </details>
+<br>
 
-### 📚 references(참고 자료)
+### 📚 References(참고 자료)
 [[JAVA] ArrayList<Integer>를 int[]로 바꾸기](https://velog.io/@coastby/JAVA-ArrayListInteger%EB%A5%BC-int%EB%A1%9C-%EB%B0%94%EA%BE%B8%EA%B8%B0)  
 [[ORACLE 문서] java.lang.Object[]](https://docs.oracle.com/javase/7/docs/api/java/util/Vector.html#copyInto(java.lang.Object[]))
 
+---
 
 ## ✔ Solution with Array
 ```java
@@ -92,6 +97,7 @@ public class Solution {
 
   ![채점 결과](https://github.com/MinjuKang727/I_am_Super_Junior/assets/108849480/9bd386f5-cdcb-4535-99e9-ac92263bafaf)
 </details>
+<br>
 
-### 📚 references(참고 자료)
+### 📚 Rferences(참고 자료)
 [[Java] 특정 인덱스에서 배열 자르기](https://hianna.tistory.com/619)
