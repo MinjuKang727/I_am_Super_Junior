@@ -53,5 +53,8 @@ class Solution {
 
    ![알고리즘코드카타 인증샷](https://github.com/MinjuKang727/I_am_Super_Junior/assets/108849480/321e6287-851a-46f7-adfc-5883919d95b2)
 </details>
+<br>
 
-#### 📖 연산자 개념 정리([링크🔗](https://github.com/MinjuKang727/Java/blob/main/markdown/Operators(%EC%97%B0%EC%82%B0%EC%9E%90).md))  
+---
+
+### 📖 연산자 개념 정리([링크🔗](https://github.com/MinjuKang727/Java/blob/main/markdown/Operators(%EC%97%B0%EC%82%B0%EC%9E%90).md))  
