@@ -63,6 +63,7 @@ CODE
 </details>
 
 #### Available Languages(사용 가능한 언어)
+  > 더 많은 언어 리스트는 링크 참고([링크🔗](https://github.com/highlightjs/highlight.js/blob/32f6d13c9998d04c278c8fdfed9c633e978bcbf7/SUPPORTED_LANGUAGES.md))
 
 |Language |	Markdown |	Language | Markdown|
 |:---:|:---:|:---:|:---:|
