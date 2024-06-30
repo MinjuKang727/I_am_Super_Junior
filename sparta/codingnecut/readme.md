@@ -13,3 +13,5 @@
 - [Sweetalert2](https://sweetalert2.github.io/)
 - [[javascript] 이미지 불러오기](https://hokeydokey.tistory.com/96)
 - [이미지 사이즈 비율 맞추는 3가지 방법 (object-fit / background-size / position)](https://inpa.tistory.com/entry/CSS-📚-이미지-사이즈-비율-맞추는-3가지-방법-object-fit-background-size-position)
+- [[javascript] html2canvas 를 이용한 웹 화면 캡쳐](https://sub0709.tistory.com/48)
+- [[HTML] 날짜, 시간 입력 항목 기본값으로 세팅하기](https://hianna.tistory.com/318)
