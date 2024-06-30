@@ -33,15 +33,24 @@
             margin-top: 30px;
         }
 
-        .photo-frame {
-            background-color: white;
+        .photo_div {
+            background-color: #ffb291;
             margin: 15px 20px;
             height: 200px;
+            width: 350px;
 
             background-size: cover;
             position: relative;
 
             cursor: pointer;
+        }
+
+        .photo-frame {
+            background-color: white;
+            height: 200px;
+
+            background-size: contain;
+            background-position: center;
         }
 
         .footer {
@@ -261,29 +270,33 @@
 <body>
     <div class="container">
         <div class="photos">
-            <div id="image1" class="photo-frame" onmouseover="showText(1)" onmouseout="hideText(1)"
-                onclick="alertText(1)">
-                <span id="desc1" class="photo_description">
-                    우리 작년 1월에 동해 갔을 때 :)
-                </span>
+            <div class="photo_div" onmouseover="showText(1)" onmouseout="hideText(1)" onclick="alertText(1)">
+                <div id="image1" class="photo-frame">
+                    <span id="desc1" class="photo_description">
+                        우리 작년 1월에 동해 갔을 때 :)
+                    </span>
+                </div>
             </div>
-            <div id="image2" class="photo-frame" onmouseover="showText(2)" onmouseout="hideText(2)"
-                onclick="alertText(2)">
-                <span id="desc2" class="photo_description">
-                    작년 할로윈 파티
-                </span>
+            <div class="photo_div" onmouseover="showText(2)" onmouseout="hideText(2)" onclick="alertText(2)">
+                <div id="image2" class="photo-frame">
+                    <span id="desc2" class="photo_description">
+                        작년 할로윈 파티
+                    </span>
+                </div>
             </div>
-            <div id="image3" class="photo-frame" onmouseover="showText(3)" onmouseout="hideText(3)"
-                onclick="alertText(3)">
-                <span id="desc3" class="photo_description">
-                    친구랑 싸웠을 때 위로해준 너
-                </span>
+            <div class="photo_div" onmouseover="showText(3)" onmouseout="hideText(3)" onclick="alertText(3)">
+                <div id="image3" class="photo-frame">
+                    <span id="desc3" class="photo_description">
+                        친구랑 싸웠을 때 위로해준 너
+                    </span>
+                </div>
             </div>
-            <div id="image4" class="photo-frame" onmouseover="showText(4)" onmouseout="hideText(4)"
-                onclick="alertText(4)">
-                <span id="desc4" class="photo_description">
-                    코딩 공부 처음 시작한 날
-                </span>
+            <div class="photo_div" onmouseover="showText(4)" onmouseout="hideText(4)" onclick="alertText(4)">
+                <div id="image4" class="photo-frame">
+                    <span id="desc4" class="photo_description">
+                        코딩 공부 처음 시작한 날
+                    </span>
+                </div>
             </div>
         </div>
         <div class="footer">
