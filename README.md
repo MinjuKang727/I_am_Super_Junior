@@ -5,12 +5,15 @@
 <img align="right" src="https://github.com/MinjuKang727/private/blob/main/I'm%20Super%20Junior/data/schedule%20table.png" >
 
 <i>Let's wrap up the day with</i> <a href="https://github.com/MinjuKang727/I_am_Super_Junior/blob/b4789010365b118d18390170941b9026acf20345/TIL/readme.md" target="_blank">TIL</a>
-### 2024.07.15 ~ 2024.11.25 (Planned) Back-end course(5th Java&Spring) of nb camp in Spartan Coding Club open.
-### 2024.05.20 ~ 2024.06.28 (Planned) 99 Club Coding Test Study
+### 2024.07.15 ~ 2024.11.25 (ing...) Back-end course(5th Java&Spring) of nb camp in Spartan Coding Club open.
+### 2024.05.20 ~ 2024.06.28 (End) 2nd term of the "99 Club" Coding Test Study
+- 40 - Total Problems I solved.
+- 24H - Total time participated in online study.
+- 40 - Total TILs I wrote.
 ### 2024.05.16 [Sparta Sprint] 2th SQLD Certification Challenge Start!
 ### 2024.05.15 (Backend Development Study Restarted)
 <b>📌 Exams under preparation</b>
-  - SQLD(Sat. May. 25th)
+  - SQLD(Sat. May. 25th)  >> (2024.06.21) 🎖️ SQLD 자격증 취득! 🎉
   - Practical exam for Engineer Information Processing(July.28th ~ August.14th)
       - <a href="https://www.q-net.or.kr/totalSearch.do?gSite=Q&searchQuery=%C1%A4%BA%B8%C3%B3%B8%AE%B1%E2%BB%E7&totalQuery=%C1%A4%BA%B8%C3%B3%B8%AE%B1%E2%BB%E7&searchMenu=exam&searchSort=weight&pageNum=1&resFlag=off&qryStr=&detailChk=off" target="_blank">Exam schedule and etc...</a>
       - <a href="https://youtube.com/playlist?list=PLpYNFXUfkvDq4aqECawuYAF2QVcm0fY8C&si=YVbutMofxJJxiQzn" target="_blank">시나공</a> : Youtube online lecture
